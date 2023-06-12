@@ -1,4 +1,4 @@
-Gjøreliste:
+# Gjøreliste:
 
 Bruke REM eller EM istedenfor PX
 
@@ -16,7 +16,7 @@ Bytte ut inline-style, med CSS
 
 
 
-Huskeliste:
+# Huskeliste:
 
 USE JQUERY, NOT XMLHTTPREQUEST OR IFRAME, THIS WORKS BETTER
 JQUERY: tillegskode til javascript, åpner opp mange muligheter
