@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<HTML lang="no"></HTML>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<html>
+    <head>
+        <title>Elveparken IL</title>
+        <link rel="icon" type="image/x-icon" href="./favicon.ico">
+        <!-- <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">-->
+        <link rel="manifest" href="./site.webmanifest">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Elveparken">
+        <meta name="description" content="Elveparken">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body id="page">
+        <div id="top">
+            <a href="../v3/index.html"><img id="logo" src="../idrettside_files/Elveparken logo blå (003).png"></a>
+            <h1 style="text-align:center; color: #000; ;">Elveparken IL</h1>
+            <!--<input type="button" onClick="document.getElementById('page2').scrollIntoView();" value="Side 2" class="nav-button"/></li> <i class="fa-solid fa-server fa-xl"></i>-->
+            <button id="dropbtn" onclick="DropDownMenuFunction()" class="dropbtn MenyText1">&#9776; Meny</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#page1">1</a>
+                <a href="#page2">2</a>
+                <a href="#page3">Om oss</a>
+                <a href="#page0">V</a>
+              </div>
+        </div>
+
+        <a id="TopButton" href="#top">^</a>
+        
+        <div id="space" style="min-height: 100vh;min-width: 100vh;border:0;padding:0;">
+            <div style="min-height: 0%;">
+            </div>
+        </div>
+
+        <div id="page1" style="width: 100vw;border:0;padding:0;height: 100vh;background-color: rgb(240, 248, 255, .5);">
+            <div style="height: 80%;width: 40%;float:left;">
+                <h1>Hvem er vi?</h1>
+                Kontakt oss
+
+            
+                <form action="mailto:markus.sjostrom.orf@gmail.com" method="get" enctype="text/plain">
+                Ditt navn<br>
+                <input type="text" name="subject" placeholder="Your Name"><br>
+                Din Epost:<br>
+                <input type="email" name="email" placeholder="Your Email"><br>
+                Melding:<br>
+                <textarea name="body" rows="5" cols="30" placeholder="Your Message"></textarea><br>
+                <input type="submit" value="Send">
+                </form>
+        
+
+            </div>
+            <div style="height: 80%;width: 40%;float:right">
+                <img src="../idrettside_files/hender.png" style="inherits: none;height: 100%;align-self: auto;vertical-align: middle;display:inline-block">
+            </div>
+        </div>
+
+        <div id="space" style="min-height: 50vh;min-width: 100vh;border:0;padding:0;">
+            <div style="min-height: 0%;">
+            </div>
+        </div>
+
+        <div id="page2" style="min-width: 100vh;min-height: 100vh;border:0;padding:0;opacity: 50;;background-color: aliceblue;">
+            <div>
+                <iframe src="side2.html"></iframe>
+            </div>
+        </div>
+
+        <div id="space" style="min-height: 50vh;min-width: 100vh;border:0;padding:0;">
+            <div style="min-height: 0%;">
+            </div>
+        </div>
+
+        <div id="page3" style="min-width: 100vh;min-height: 100vh;border:0;padding:0;opacity: 50;;background-color: aliceblue;">
+            <div>
+                <iframe src="side3.html"></iframe>
+            </div>
+        </div>
+
+        <div id="space" style="min-height: 50vh;min-width: 100vh;border:0;padding:0;">
+            <div style="min-height: 0%;">
+            </div>
+        </div>
+
+        <div id="page0">
+            <p id="footer1">Elveparken IL</p>
+        </div>
+    </body>
+    <script>
+        time() // Always
+	    setInterval(time, 0)
+
+        function time() {
+            if (myDropdown.classList.contains('show')) {
+                document.getElementById("dropbtn").textContent = "✕ Meny";
+            }
+            else {
+                document.getElementById("dropbtn").textContent = "☰ Meny";
+            }
+        }
+        
+
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function DropDownMenuFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+            }
+        }
+        }
+    </script>
+    
+</html>

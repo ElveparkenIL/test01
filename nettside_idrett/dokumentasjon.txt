@@ -1,0 +1,31 @@
+- Nødvendige filer i "www" mappen:
+
+favicon.ico (iconet til siden, vises på fanen)
+index.html (selve siden)
+melding.html (side som sier at melding er sendt)
+style.css (utseende)
+
+
+
+- Nødvendige filer i "idrettside_files" mappen:
+
+elveparken_logo_1.png (ensfarget, helst hvit)
+elveparken_logo_2.png (fullfarget)
+
+background.jpg (bakgrunnen til siden)
+
+part1.jpg (bilde til part1)
+part2.jpg (bilde til part2)
+part3.jpg (bilde til part3)
+part4.jpg (bilde til part4)
+part5.jpg (bilde til part5)
+
+part1.html
+part2.html
+part3.html
+part4.html
+part5.html
+
+facebook.txt (linken til facebook-siden)
+instagram.txt (linken til insta-siden)
+

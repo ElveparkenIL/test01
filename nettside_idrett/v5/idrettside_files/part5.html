@@ -1,0 +1,46 @@
+<div id="part5a" style="text-align: center; height: 50%; width: 50%; float: left;">
+    <!-- <h1>Hvem er vi?</h1>-->
+    <br>
+    <h3 style="padding: 0;">Kontakt oss</h3>
+    <form method="POST" action="https://www.domeneshop.no/cgi-bin/mailto.cgi" target="_blank" accept-charset="ISO-8859-1">
+        <input type="hidden" name="_to" value="post@elveparkenil.no">
+        <input type="hidden" name="_from" value="post@elveparkenil.no">
+        <input type="hidden" name="_subject" value="Tilbakemelding">
+        <input type="hidden" name="_resulturl" value="https://www.elveparkenil.no/melding">
+
+        <input type="text" name="navn" value="" placeholder="Ditt navn (Valgfritt)">
+        <br><br>
+        <input required type="email" name="epost" value="" placeholder="Din e-post">
+        <br><br>
+        <input required type="text" name="tekst" value="" placeholder="Skriv inn din melding">
+        <br><br>
+
+        <p style="font-size: 15px;">Hva anngår meldingen?</p>
+        <div class="radio-button-contact-us-parent" style="width: 100%; display: inline;">
+            <div style="text-align: right; width: 100px; display: inline;">
+                <br>
+                <p style="font-size: 12px; margin: 0;">Arrangement:</p>
+                <input style="width: 10px;" required type="radio" name="emne" value="Arrangement">
+                <br><br>
+                <p style="font-size: 12px; margin: 0;">Bakt potet:</p>
+                <input style="width: 10px;" required type="radio" name="emne" value="Bakt potet">
+                <br><br>
+                <p style="font-size: 12px; margin: 0;">Stekt potet:</p>
+                <input style="width: 10px;" required type="radio" name="emne" value="Stekt potet">
+                <br><br>
+                <p style="font-size: 12px; margin: 0;">Kokt potet:</p>
+                <input style="width: 10px;" required type="radio" name="emne" value="Kokt potet">
+                <br><br>
+                <p style="font-size: 12px; margin: 0;">Annet:</p>
+                <input style="width: 10px;" required type="radio" name="emne" value="Annet">
+                <br><br>
+            </div>
+        </div>
+        <br>
+        <input type="submit" value="Send">
+    </form>
+</div>
+<div id="part5b" style="height: auto; width: 50%; float: right;">
+    <img src="idrettside_files/hender.png"
+        style="height: 80%; max-width: 100%; align-self: auto; vertical-align: middle; display: inline-block;">
+</div>

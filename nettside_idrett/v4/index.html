@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<HTML lang="no">
+
+</HTML>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<html>
+
+<head>
+    <title>Elveparken IL</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="ElveparkenIL, Elveparken, IL, Idrettslag">
+    <meta name="description" content="Elveparken IL">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body id="page">
+    <div class="space">
+        <div id="top">
+            <!--<br class="br1">-->
+            <a href="./"><img id="logo" src="idrettside_files/elveparken_logo_1.png"></a>
+            <h1 draggable="true" id="title">Elveparken IL</h1>
+            <button id="dropbtn" onclick="DropDownMenuFunction()" class="dropbtn MenyText1">&#9776; Meny</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#part1">Potetmos</a>
+                <a href="#part2">Potetbåter</a>
+                <a href="#part3">Poteter</a>
+                <a href="#part4">Potet</a>
+                <a href="#part5">Kontakt oss</a>
+                <a href="#footer">⇩</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="space0" class="space"></div>
+
+    <a id="TopButton" href="#">⇧</a>
+
+
+
+    <!-- Part 1 -->
+    <div id="part1" class="part">
+        <div id="part1text"></div>
+    </div>
+    <div id="space1" class="space"></div>
+
+
+
+    <!-- Part 2 -->
+    <div id="part2" class="part">
+        <div id="part2text"></div>
+    </div>
+    <div id="space2" class="space"></div>
+
+
+
+    <!-- Part 3 -->
+    <div id="part3" class="part">
+        <div>
+            <h1 id="part2title">2</h1>
+            <p id="part2text">22</p>
+        </div>
+    </div>
+    <div id="space3" class="space"></div>
+
+
+
+    <!-- Part 4 -->
+    <div id="part4" class="part">
+        <div>
+            <iframe src="idrettside_files/part4.html"></iframe>
+        </div>
+    </div>
+    <div id="space4" class="space"></div>
+
+
+
+    <!-- Part 5 -->
+    <div id="part5" class="part">
+        <div id="part5a" style="text-align: center; height: 50%; width: 50%; float: left;">
+            <!-- <h1>Hvem er vi?</h1>-->
+
+            <br>
+
+
+            <h3 style="padding: 0;">Kontakt oss</h3>
+
+
+            <form method="POST" action="https://www.domeneshop.no/cgi-bin/mailto.cgi" target="_blank" accept-charset="ISO-8859-1">
+                <input type="hidden" name="_to" value="post@elveparkenil.no">
+                <input type="hidden" name="_from" value="post@elveparkenil.no">
+                <input type="hidden" name="_subject" value="Tilbakemelding">
+                <input type="hidden" name="_resulturl" value="https://www.elveparkenil.no/melding">
+
+
+                <input type="text" name="navn" value="" placeholder="Ditt navn (Valgfritt)">
+                <br><br>
+                <input required type="email" name="epost" value="" placeholder="Din e-post">
+                <br><br>
+                <input required type="text" name="tekst" value="" placeholder="Skriv inn din melding">
+                <br><br>
+
+
+                <p style="font-size: 15px;">Hva anngår meldingen?</p>
+                <div class="radio-button-contact-us-parent" style="width: 100%; display: inline;">
+                    <div style="text-align: right; width: 100px; display: inline;">
+                        <br>
+                        <p style="font-size: 12px; margin: 0;">Arrangement:</p>
+                        <input style="width: 10px;" required type="radio" name="emne" value="Arrangement">
+                        <br><br>
+                        <p style="font-size: 12px; margin: 0;">Bakt potet:</p>
+                        <input style="width: 10px;" required type="radio" name="emne" value="Bakt potet">
+                        <br><br>
+                        <p style="font-size: 12px; margin: 0;">Stekt potet:</p>
+                        <input style="width: 10px;" required type="radio" name="emne" value="Stekt potet">
+                        <br><br>
+                        <p style="font-size: 12px; margin: 0;">Kokt potet:</p>
+                        <input style="width: 10px;" required type="radio" name="emne" value="Kokt potet">
+                        <br><br>
+                        <p style="font-size: 12px; margin: 0;">Annet:</p>
+                        <input style="width: 10px;" required type="radio" name="emne" value="Annet">
+                        <br><br>
+                    </div>
+                </div>
+                <br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+        <div id="part5b" style="height: auto; width: 50%; float: right;">
+            <img src="idrettside_files/hender.png"
+                style="height: 80%; max-width: 100%; align-self: auto; vertical-align: middle; display: inline-block;">
+        </div>
+    </div>
+
+    <div id="space3" class="space"></div>
+
+
+
+
+    <!-- Footer, Bottom -->
+    <div id="footer" class="footer" style="border:0; padding:0; height: 400px; width: 100%; text-align: center;">        
+        <div style="height: 60%; display: inline-flex; justify-content: center safe; align-items: center safe;">
+            <div>
+                <br>
+                <a href="./"><img id="logo" src="idrettside_files/elveparken_logo_2.png" style="height: 200px;"></a>
+            </div>
+            <div>
+                <br>
+                <p id="footer1">Elveparken IL</p>
+                <a href="https://www.facebook.com/profile.php?id=100092474956107" target="_blank" style="display: block;">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+                </a>
+                <br>
+                <a href="https://www.instagram.com/elveparkenil/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                </a>
+            </div>
+        </div>
+        <br><br><br><br>
+        <p id="footer2" style="font-size: 12px;">Programmert av Jakob Karstensen, Markus Sjøstrøm Orf & Gabriel Teistedal</p>
+    </div>
+    
+</body>
+
+<script>
+    Always(); // Will run always
+    Sometimes(); // Will run sometimes (20 sec)
+    setInterval(Always, 0);
+    setInterval(Sometimes, 20000);
+
+    function Always() {
+        if (myDropdown.classList.contains('show')) {
+            document.getElementById("dropbtn").textContent = "✕ Meny";
+        }
+        else {
+            document.getElementById("dropbtn").textContent = "☰ Meny";
+        }
+
+        var element = document.documentElement;
+        if (element.scrollTop < 1) {
+            document.getElementById("TopButton").classList.add("hide");
+        }
+        else if (element.scrollTop < (element.clientHeight * 1)) {
+            document.getElementById("TopButton").classList.remove("hide");
+            document.getElementById("page").style.backgroundImage = "url('idrettside_files/background16_9.jpg')";
+        }
+        else if (element.scrollTop < (element.clientHeight * 6)) {
+            document.getElementById("TopButton").classList.remove("hide");
+            document.getElementById("page").style.backgroundImage = "url('idrettside_files/hender.png')";
+        }
+        else {
+            document.getElementById("TopButton").classList.remove("hide");
+            document.getElementById("page").style.backgroundImage = "url('idrettside_files/background16_9.jpg')";
+        }
+    }
+
+    function Sometimes() {
+        /* USE JQUERY, NOT THIS OR IFRAME, THIS WORKS BETTER
+        
+        var client = new XMLHttpRequest();
+        client.open('GET', 'idrettside_files/part1title.txt');
+        client.onreadystatechange = function() {
+            document.getElementById("part1title").innerHTML = client.responseText;
+        }
+        client.send();
+
+        fetch('idrettside_files/part1title.txt')
+        .then(response => response.text())
+        .then((data) => {
+            document.getElementById("part1title").innerHTML = data;
+        })
+
+        fetch('idrettside_files/part1.txt')
+        .then(response => response.text())
+        .then((data) => {
+            document.getElementById("part1text").innerHTML = data;
+        })
+
+        fetch('idrettside_files/part2title.txt')
+        .then(response => response.text())
+        .then((data) => {
+            document.getElementById("part2title").innerHTML = data;
+        })
+
+        fetch('idrettside_files/part2.txt')
+        .then(response => response.text())
+        .then((data) => {
+            document.getElementById("part2text").innerHTML = data;
+        }) */
+    }
+
+
+
+    $(document).ready(function(){
+        $("#part1text").load("idrettside_files/part1.html");
+        $("#part2text").load("idrettside_files/part2.html");
+    });
+
+
+
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function DropDownMenuFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+
+</html>
