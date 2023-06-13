@@ -3,7 +3,7 @@
 <html lang="no">
 
 <head>
-    <title>Elveparken IL Nettside 2</title>
+    <title>Elveparken IL</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
@@ -22,7 +22,7 @@
             <h1 draggable="true" id="title">Elveparken IL</h1>
             <button id="dropbtn" onclick="DropDownMenuFunction()" class="dropbtn MenyText1">&#9776; Meny</button>
             <div id="myDropdown" class="dropdown-content">
-                <a href="#part1">Potetmos</a>
+                <a href="#part1">Arrangementer</a>
                 <a href="#part2">Potetbåter</a>
                 <a href="#part3">Poteter</a>
                 <a href="#part4">Potet</a>
@@ -37,7 +37,7 @@
     <a id="TopButton" href="#">⇧</a>
 
 
-
+    
     <!-- Part 1 -->
     <div id="part1" class="part">
         <div id="part1text"></div>
@@ -114,9 +114,11 @@
     function Always() {
         if (myDropdown.classList.contains('show')) {
             document.getElementById("dropbtn").textContent = "✕ Meny";
+            document.getElementById("top").style.boxShadow = '0 0 0 0 rgba(0,0,0,0.5)';
         }
         else {
             document.getElementById("dropbtn").textContent = "☰ Meny";
+            document.getElementById("top").style.boxShadow = '0px 32px 32px 0px rgba(0,0,0,0.5)';
         }
 
         var element = document.documentElement;
@@ -124,9 +126,6 @@
             document.getElementById("TopButton").classList.add("hide");
         }
         else if (element.scrollTop < (element.clientHeight * 1)) {
-            document.getElementById("TopButton").classList.remove("hide");
-        }
-        else if (element.scrollTop < (element.clientHeight * 6)) {
             document.getElementById("TopButton").classList.remove("hide");
         }
         else {
