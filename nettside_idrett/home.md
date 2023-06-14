@@ -1,8 +1,6 @@
 # Gjøreliste:
 
-Bruke REM eller EM istedenfor PX
-
-Ikke bruke VH på PART
+Bruke REM eller EM istedenfor Px
 
 Bruke CSS til å gjøre siden smooth
 
